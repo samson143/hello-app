@@ -4,7 +4,7 @@ class Zegaladd extends React.Component {
     render(){
         return(
             <div>
-                This is Zegaladd.
+                This is ZegalApp and practice.
             </div>
         )
     }
