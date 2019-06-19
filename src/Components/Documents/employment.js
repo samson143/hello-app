@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Mycomponent/card";
 import Grid from "@material-ui/core/Grid";
 import Documentpaper from "../Mycomponent/documentpaper";
-import { Typography } from "@material-ui/core";
 //import { Typography } from "@material-ui/core";
 
 class Employment extends React.Component {
@@ -12,14 +11,32 @@ class Employment extends React.Component {
        
         <Card title="Borrowing">
           <Grid container spacing={6}>
-            <Documentpaper title="first document for..">
-              <button>upgrate</button>
-            </Documentpaper>
+          <Documentpaper
+              title="Employment Contract (simplified)"
+              paragraph="An Employment Contract is a contract by
+               which a company hires an employee. "
+            />
 
-            <Documentpaper>this is me</Documentpaper>
-            <Documentpaper>this is me</Documentpaper>
-            <Documentpaper>this is me</Documentpaper>
-            <Documentpaper>this is me</Documentpaper>
+             <Documentpaper
+              title="Employment Contract (simplified)"
+              paragraph="An Employment Contract is a contract by
+               which a company hires an employee. "
+            />
+             <Documentpaper
+              title="Employment Contract (simplified)"
+              paragraph="An Employment Contract is a contract by
+               which a company hires an employee. "
+            />
+             <Documentpaper
+              title="Employment Contract (simplified)"
+              paragraph="An Employment Contract is a contract by
+               which a company hires an employee. "
+            />
+             <Documentpaper
+              title="Employment Contract (simplified)"
+              paragraph="An Employment Contract is a contract by
+               which a company hires an employee. "
+            />
           </Grid>
         </Card>
       </div>

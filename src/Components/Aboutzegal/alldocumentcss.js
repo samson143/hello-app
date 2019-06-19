@@ -1,16 +1,28 @@
 export default {
-    grid: {
-      display: "flex"
-    },
-  
     alldocument: {
-      width: 256,
+      width: 356,
       backgroundColor: "white",
       position: "fixed",
-      top: 100,
-      left: 300
+      top: 128,
+      left: 331,
+      bottom: 0,
+      paddingTop: 20,
+      paddingRight: 20,
+      overflowY: "auto",
+        
+      '&::-webkit-scrollbar': {
+        width: '0.6em'
+      },
+      '&::-webkit-scrollbar-track': {
+        '-webkit-box-shadow': 'inset 0 0 6px rgba(0,0,0,0.3)'
+      },
+      '&::-webkit-scrollbar-thumb': {
+        backgroundColor: 'darkgrey',
+        outline: '1px solid slategrey',
+        borderRadius: "5px"
+      }
     },
-  
+
     unorderedlist: {
       margin: 0,
       padding: 0,

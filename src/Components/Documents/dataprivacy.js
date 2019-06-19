@@ -9,7 +9,7 @@ class Dataprivacy extends React.Component {
       <div>
         
         <Card title="Basic plan">
-          <Grid container spacing={6}>
+          <Grid container spacing={3}>
             <Documentpaper
               upgradebtn
               title="Confidentiality Agreement(NDA)"

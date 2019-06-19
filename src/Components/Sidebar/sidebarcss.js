@@ -3,7 +3,8 @@ export default {
       backgroundColor: "#626871",
       position: "fixed",
       top: 64,
-      width: 240,
+      bottom: 0,
+      width: 330,
       
     },
   
@@ -29,7 +30,16 @@ export default {
     },
   
     sidebar_down: {
-      marginTop: 280
+      position: "fixed",
+      bottom: 20
+    },
+    chevron: {
+      position: "fixed",
+      bottom: 50,
+      left: 308,
+      zIndex: 1,
+      width: 42,
+      height: 42
     }
   };
   

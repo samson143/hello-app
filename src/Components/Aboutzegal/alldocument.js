@@ -1,7 +1,6 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import Alldocumentcss from "./alldocumentcss";
 
 class Alldocument extends React.Component {
@@ -9,7 +8,7 @@ class Alldocument extends React.Component {
     const { classes } = this.props;
     return (
       <div>
-        <Paper className={classes.alldocument}>
+        <Grid className={classes.alldocument}>
           <div>
             <ul className={classes.unorderedlist}>
               <div className={classes.all}>
@@ -63,9 +62,29 @@ class Alldocument extends React.Component {
               <div className={classes.list}>
                 <li>SME Trade</li>
               </div>
+
+              <div className={classes.list}>
+                <li>Intellectual Property</li>
+              </div>
+
+              <div className={classes.list}>
+                <li>Intellectual Property</li>
+              </div>
+
+              <div className={classes.list}>
+                <li>Intellectual Property</li>
+              </div>
+
+              <div className={classes.list}>
+                <li>Intellectual Property</li>
+              </div>
+
+              <div className={classes.list}>
+                <li>Intellectual Property</li>
+              </div>
             </ul>
           </div>
-        </Paper>
+        </Grid>
       </div>
     );
   }

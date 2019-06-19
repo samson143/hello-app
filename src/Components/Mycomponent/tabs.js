@@ -8,10 +8,18 @@ import Tab from "@material-ui/core/Tab";
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "#9e9e9e00",
+    backgroundColor: "#ede8e9",
     marginBottom: 20,
-    position: "sticky"
+    position: "sticky",
+    top: 200,
+    top: 128,
+    marginLeft: 789,
+    width: "calc(100% - 838px)",
   },
+
+
+
+
   tabsRoot: {
     borderBottom: "1px solid #607d8b3b"
   },
@@ -26,7 +34,7 @@ const styles = theme => ({
     color: "#8a8080",
     opacity: 0.9,
     marginRight: theme.spacing.unit * 4,
-    fontSize: 16,
+    fontSize: 20,
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",

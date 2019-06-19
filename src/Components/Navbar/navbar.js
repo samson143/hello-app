@@ -26,6 +26,7 @@ class Nav extends React.Component {
             style={{ margin: 8, fontSize: 15 }}
             placeholder="Search by document name"
             margin="normal"
+            fullWidth
             InputLabelProps={{
               shrink: true
             }}

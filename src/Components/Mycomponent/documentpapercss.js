@@ -1,6 +1,6 @@
 export default {
     documentpaper: {
-      padding: 10,
+      padding: 15,
       border: "1px solid #ccc",
       boxShadow: "none",
       height: 100,

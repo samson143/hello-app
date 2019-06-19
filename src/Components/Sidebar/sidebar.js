@@ -62,9 +62,14 @@ class Sidebar extends React.Component {
               >
                 samson tamang
               </Typography>
+              
+              
             </Grid>
           </div>
         </Grid>
+          <Fab color="primary" aria-label="Add" className={classes.chevron}>
+              <AddIcon />
+          </Fab>
       </div>
     );
   }

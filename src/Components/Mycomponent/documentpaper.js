@@ -9,9 +9,9 @@ import { Button, Tooltip } from "@material-ui/core";
 
 class Documentpaper extends React.Component {
   render() {
-    const { classes, children, title, paragraph, upgradebtn } = this.props;
+    const { classes, title, paragraph, upgradebtn } = this.props;
     return (
-      <Grid item md={12} lg={6}>
+      <Grid item lg={6} md={12}>
         <Paper className={classes.documentpaper}>
           <div className={classes.documentpaper_body}>
             <div className={classes.descriptionicon}>
